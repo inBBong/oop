@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\Account.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|solutionrelative:Account.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\BankingSystemMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|solutionrelative:BankingSystemMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\AccountHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|solutionrelative:AccountHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|solutionrelative:Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\AccountHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|solutionrelative:AccountHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\HighCreditAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|solutionrelative:HighCreditAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\NormalAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|solutionrelative:NormalAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\BankingCommonDecl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC74DAA-9F01-4C8D-8B33-C613E8BBC5E4}|\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B.vcxproj|solutionrelative:BankingCommonDecl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Account.cpp",
+              "DocumentMoniker": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\Account.cpp",
+              "RelativeDocumentMoniker": "Account.cpp",
+              "ToolTip": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\Account.cpp",
+              "RelativeToolTip": "Account.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-14T15:45:04.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountHandler.cpp",
+              "DocumentMoniker": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\AccountHandler.cpp",
+              "RelativeDocumentMoniker": "AccountHandler.cpp",
+              "ToolTip": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\AccountHandler.cpp",
+              "RelativeToolTip": "AccountHandler.cpp",
+              "ViewState": "AgIAAE0AAAAAAAAAAIA7wFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-14T15:34:39.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountHandler.h",
+              "DocumentMoniker": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\AccountHandler.h",
+              "RelativeDocumentMoniker": "AccountHandler.h",
+              "ToolTip": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\AccountHandler.h",
+              "RelativeToolTip": "AccountHandler.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-14T15:31:19.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankingSystemMain.cpp",
+              "DocumentMoniker": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\BankingSystemMain.cpp",
+              "RelativeDocumentMoniker": "BankingSystemMain.cpp",
+              "ToolTip": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\BankingSystemMain.cpp",
+              "RelativeToolTip": "BankingSystemMain.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-14T15:31:33.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NormalAccount.h",
+              "DocumentMoniker": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\NormalAccount.h",
+              "RelativeDocumentMoniker": "NormalAccount.h",
+              "ToolTip": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\NormalAccount.h",
+              "RelativeToolTip": "NormalAccount.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-14T15:31:21.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HighCreditAccount.h",
+              "DocumentMoniker": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\HighCreditAccount.h",
+              "RelativeDocumentMoniker": "HighCreditAccount.h",
+              "ToolTip": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\HighCreditAccount.h",
+              "RelativeToolTip": "HighCreditAccount.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-14T15:31:20.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BankingCommonDecl.h",
+              "DocumentMoniker": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\BankingCommonDecl.h",
+              "RelativeDocumentMoniker": "BankingCommonDecl.h",
+              "ToolTip": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\BankingCommonDecl.h",
+              "RelativeToolTip": "BankingCommonDecl.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-14T15:31:20.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account.h",
+              "DocumentMoniker": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\Account.h",
+              "RelativeDocumentMoniker": "Account.h",
+              "ToolTip": "C:\\Users\\ihhan\\source\\repos\\\uC724\uC131\uC6B0\uC758 \uC5F4\uD608 C\u002B\u002B\\Account.h",
+              "RelativeToolTip": "Account.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-14T15:31:19.19Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 95,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

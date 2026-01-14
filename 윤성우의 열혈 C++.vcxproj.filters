@@ -16,6 +16,33 @@
     <Filter Include="소스 파일\OOP">
       <UniqueIdentifier>{e63cd3dd-87f9-45fb-9237-ce39f9768827}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\OOP\OOP.6">
+      <UniqueIdentifier>{d2941922-1023-462d-8c79-3b18974473ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP\OOP.7">
+      <UniqueIdentifier>{6984e184-ca5d-46a3-8aaf-d5237efba80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP\OOP.8">
+      <UniqueIdentifier>{842bfe8d-47e8-4b1f-b5c7-bc8ddb9f76e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP\OOP.9">
+      <UniqueIdentifier>{7bb70bb2-14e2-4a26-94d0-1b56b2e969ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP\OOP.10">
+      <UniqueIdentifier>{acfa79aa-fe08-4340-9161-fc16eb1ab4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP\OOP.11">
+      <UniqueIdentifier>{90ac8b63-d145-4907-9c5a-09a092ef3565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP\OOP.6\CPP">
+      <UniqueIdentifier>{acf0464d-3a47-46d0-af98-fd1ba335c998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP\OOP.6\Header">
+      <UniqueIdentifier>{df89c0e5-9e56-4c2a-a003-1cb0ec60e036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP\OOP.7\CPP">
+      <UniqueIdentifier>{9a5607de-fbc3-47a1-8892-0605a98b7eed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunctionOverloading.cpp">
@@ -90,13 +117,34 @@
     <ClCompile Include="oop.5.cpp">
       <Filter>소스 파일\OOP</Filter>
     </ClCompile>
-    <ClCompile Include="oop.6.cpp">
-      <Filter>소스 파일\OOP</Filter>
+    <ClCompile Include="BankingSystemMain.cpp">
+      <Filter>소스 파일\OOP\OOP.6\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>소스 파일\OOP\OOP.6\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountHandler.cpp">
+      <Filter>소스 파일\OOP\OOP.6\CPP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NameSp2.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>소스 파일\OOP\OOP.6\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAccount.h">
+      <Filter>소스 파일\OOP\OOP.6\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HighCreditAccount.h">
+      <Filter>소스 파일\OOP\OOP.6\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountHandler.h">
+      <Filter>소스 파일\OOP\OOP.6\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BankingCommonDecl.h">
+      <Filter>소스 파일\OOP\OOP.6\Header</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

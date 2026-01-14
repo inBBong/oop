@@ -1,5 +1,5 @@
 /*
- * Banking System Ver 0.4
+ * Banking System Ver 0.5
  * 작성자: 윤성우
  * 내  용:
  *      Account 클래스를 상속하는 다음 두 클래스를 추가로 정의한다.

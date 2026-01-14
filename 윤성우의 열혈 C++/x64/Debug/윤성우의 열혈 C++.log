@@ -1,8 +1,52 @@
-﻿  oop.4.cpp
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.4.cpp(25,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.4.cpp(27,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.4.cpp(31,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.4.cpp(33,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.4.cpp(39,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.4.cpp(41,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  AccountHandler.cpp
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(13,21): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(15,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(19,21): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(21,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(30,21): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(32,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\NormalAccount.h(11,53): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\HighCreditAccount.h(19,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\HighCreditAccount.h(22,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\HighCreditAccount.h(25,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'AccountHandler.cpp'을(를) 컴파일하는 중)
+  
+  BankingSystemMain.cpp
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(13,21): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'BankingSystemMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(15,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 'BankingSystemMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(19,21): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'BankingSystemMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(21,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 'BankingSystemMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(30,21): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'BankingSystemMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\Account.h(32,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 'BankingSystemMain.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
   윤성우의 열혈 C++.vcxproj -> C:\Users\ihhan\source\repos\윤성우의 열혈 C++\x64\Debug\윤성우의 열혈 C++.exe
