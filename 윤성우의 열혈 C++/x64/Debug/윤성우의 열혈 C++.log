@@ -1,1 +1,14 @@
-﻿  윤성우의 열혈 C++.vcxproj -> C:\Users\ihhan\source\repos\윤성우의 열혈 C++\x64\Debug\윤성우의 열혈 C++.exe
+﻿  AccountHandler07.cpp
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.8\NormalAccount07.h(11,53): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'oop.8/AccountHandler07.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.8\HighCreditAccount07.h(19,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'oop.8/AccountHandler07.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.8\HighCreditAccount07.h(22,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'oop.8/AccountHandler07.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.8\HighCreditAccount07.h(25,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'oop.8/AccountHandler07.cpp'을(를) 컴파일하는 중)
+  
+  윤성우의 열혈 C++.vcxproj -> C:\Users\ihhan\source\repos\윤성우의 열혈 C++\x64\Debug\윤성우의 열혈 C++.exe
