@@ -123,8 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Account.cpp" />
-    <ClCompile Include="AccountHandler.cpp" />
+    <ClCompile Include="Account.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Account07.cpp" />
+    <ClCompile Include="AccountArray.cpp" />
+    <ClCompile Include="AccountHandler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="AccountHandler07.cpp" />
+    <ClCompile Include="BankingSystemMain07.cpp" />
     <ClCompile Include="oop.0.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
@@ -183,7 +191,9 @@
     <ClCompile Include="oop.5.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BankingSystemMain.cpp" />
+    <ClCompile Include="BankingSystemMain.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Q1_2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -204,11 +214,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Account07.h" />
     <ClInclude Include="Account.h" />
+    <ClInclude Include="AccountArray.h" />
+    <ClInclude Include="AccountHandler07.h" />
     <ClInclude Include="AccountHandler.h" />
+    <ClInclude Include="BankingCommonDecl07.h" />
     <ClInclude Include="BankingCommonDecl.h" />
+    <ClInclude Include="HighCreditAccount07.h" />
     <ClInclude Include="HighCreditAccount.h" />
     <ClInclude Include="NameSp2.h" />
+    <ClInclude Include="NormalAccount07.h" />
     <ClInclude Include="NormalAccount.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

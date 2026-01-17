@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\OOP\OOP.7\CPP">
       <UniqueIdentifier>{9a5607de-fbc3-47a1-8892-0605a98b7eed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\OOP\OOP.7\Header">
+      <UniqueIdentifier>{60feeadb-5d66-4c4f-bfce-1c8724bb1106}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunctionOverloading.cpp">
@@ -126,6 +129,18 @@
     <ClCompile Include="AccountHandler.cpp">
       <Filter>소스 파일\OOP\OOP.6\CPP</Filter>
     </ClCompile>
+    <ClCompile Include="Account07.cpp">
+      <Filter>소스 파일\OOP\OOP.7\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountHandler07.cpp">
+      <Filter>소스 파일\OOP\OOP.7\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="BankingSystemMain07.cpp">
+      <Filter>소스 파일\OOP\OOP.7\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountArray.cpp">
+      <Filter>소스 파일\OOP\OOP.7\CPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NameSp2.h">
@@ -145,6 +160,24 @@
     </ClInclude>
     <ClInclude Include="BankingCommonDecl.h">
       <Filter>소스 파일\OOP\OOP.6\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Account07.h">
+      <Filter>소스 파일\OOP\OOP.7\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountHandler07.h">
+      <Filter>소스 파일\OOP\OOP.7\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BankingCommonDecl07.h">
+      <Filter>소스 파일\OOP\OOP.7\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HighCreditAccount07.h">
+      <Filter>소스 파일\OOP\OOP.7\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAccount07.h">
+      <Filter>소스 파일\OOP\OOP.7\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountArray.h">
+      <Filter>소스 파일\OOP\OOP.7\Header</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
