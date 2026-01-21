@@ -202,11 +202,26 @@
     <ClCompile Include="BankingSystemMain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="oop.8\Account07.cpp" />
-    <ClCompile Include="oop.8\AccountArray.cpp" />
-    <ClCompile Include="oop.8\AccountHandler07.cpp" />
-    <ClCompile Include="oop.8\BankingSystemMain07.cpp" />
-    <ClCompile Include="oop.8\String.cpp" />
+    <ClCompile Include="oop.8\Account07.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="oop.8\AccountArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="oop.8\AccountHandler07.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="oop.8\BankingSystemMain07.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="oop.8\String.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="oop.9\Account07.cpp" />
+    <ClCompile Include="oop.9\BoundCheckArray.cpp" />
+    <ClCompile Include="oop.9\AccountHandler07.cpp" />
+    <ClCompile Include="oop.9\BankingSystemMain07.cpp" />
+    <ClCompile Include="oop.9\String.cpp" />
     <ClCompile Include="Q1_2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -251,13 +266,34 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="NormalAccount.h" />
-    <ClInclude Include="oop.8\Account07.h" />
-    <ClInclude Include="oop.8\AccountArray.h" />
-    <ClInclude Include="oop.8\AccountHandler07.h" />
-    <ClInclude Include="oop.8\BankingCommonDecl07.h" />
-    <ClInclude Include="oop.8\HighCreditAccount07.h" />
-    <ClInclude Include="oop.8\NormalAccount07.h" />
-    <ClInclude Include="oop.8\String.h" />
+    <ClInclude Include="oop.8\Account07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.8\AccountArray.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.8\AccountHandler07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.8\BankingCommonDecl07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.8\HighCreditAccount07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.8\NormalAccount07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.8\String.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.9\Account07.h" />
+    <ClInclude Include="oop.9\BoundCheckArray.h" />
+    <ClInclude Include="oop.9\AccountHandler07.h" />
+    <ClInclude Include="oop.9\BankingCommonDecl07.h" />
+    <ClInclude Include="oop.9\HighCreditAccount07.h" />
+    <ClInclude Include="oop.9\NormalAccount07.h" />
+    <ClInclude Include="oop.9\String.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

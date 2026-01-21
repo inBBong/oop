@@ -10,7 +10,7 @@
 
 #include"BankingCommonDecl07.h"
 #include"AccountHandler07.h"
-#include"AccountArray.h"
+#include"BoundCheckArray.h"
 
 
 int main(void)
