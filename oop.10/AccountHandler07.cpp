@@ -54,22 +54,35 @@ void AccountHandler::MakeAccount(void)
 
 void AccountHandler::DepositMoney(void)
 {
-    int money;
-    int id;
-    cout << "[입    금]" << endl;
-    cout << "계좌ID: ";   cin >> id;
-    cout << "입금액: ";   cin >> money;
+	int money;
+	int id;
+	cout << "[입    금]" << endl;
+	cout << "계좌ID: ";   cin >> id;
+	while (1)
+	{
+		cout << "입금액: ";   cin >> money;
+		try 
+        {
+			for (int i = 0; i < accNum; i++)
+			{
+				if (accArr[i]->GetID() == id)
+				{
 
-    for (int i = 0; i < accNum; i++)
-    {
-        if (accArr[i]->GetID() == id)
-        {            
-            accArr[i]->Deposit(money + accArr[i]->AddInterest(money));
-            cout << "입금완료" << endl << endl;
-            return;
-        }
-    }
-    cout << "유효하지 않은 ID 입니다." << endl << endl;
+					accArr[i]->Deposit(money);
+					cout << "입금완료" << endl << endl;
+					return;
+
+				}
+			}
+			cout << "유효하지 않은 ID 입니다." << endl << endl;
+			break;
+		}
+		catch (DepositException& dex)
+		{
+			dex.ShowException();
+			cout << "입금액을 다시 입력하세요." << endl;
+		}
+	}
 }
 
 void AccountHandler::WithdrawMoney(void)
@@ -78,23 +91,31 @@ void AccountHandler::WithdrawMoney(void)
     int id;
     cout << "[출    금]" << endl;
     cout << "계좌ID: ";   cin >> id;
-    cout << "출금액: ";   cin >> money;
-
-    for (int i = 0; i < accNum; i++)
+    while(1)
     {
-        if (accArr[i]->GetID() == id)
-        {
-            if (accArr[i]->GetBalance() < money)
-            {
-                cout << "잔액부족" << endl << endl;
-                return;
-            }
-            accArr[i]->WithDraw(money);
-            cout << "출금완료" << endl << endl;   //너무 복잡함. 다음 oop때 고칠것. Account 클래스 내부의 WithDraw함수를 만들면 더 단순하게 구현 가능. 다른 함수들도 마찬가지.
-            return;
-        }
-    }
-    cout << "유효하지 않은 ID 입니다." << endl << endl;
+		cout << "출금액: ";   cin >> money;
+		try
+		{
+			for (int i = 0; i < accNum; i++)
+			{
+				if (accArr[i]->GetID() == id)
+				{
+
+					accArr[i]->WithDraw(money);
+					cout << "출금완료" << endl << endl;
+					return;
+
+				}
+			}
+			cout << "유효하지 않은 ID 입니다." << endl << endl;
+            break;
+		}
+		catch (WithdrawException& wex)
+		{
+			wex.ShowException();
+			cout << "출금액을 다시 입력하세요." << endl;
+		}
+	}
 }
 
 void AccountHandler::ShowAllAccInfo(void)

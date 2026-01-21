@@ -132,6 +132,7 @@
     <ClCompile Include="AccountArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="AccountException.cpp" />
     <ClCompile Include="AccountHandler.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -185,6 +186,11 @@
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="oop.10\Account07.cpp" />
+    <ClCompile Include="oop.10\AccountHandler07.cpp" />
+    <ClCompile Include="oop.10\BankingSystemMain07.cpp" />
+    <ClCompile Include="oop.10\BoundCheckArray.cpp" />
+    <ClCompile Include="oop.10\String.cpp" />
     <ClCompile Include="oop.2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -217,11 +223,21 @@
     <ClCompile Include="oop.8\String.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="oop.9\Account07.cpp" />
-    <ClCompile Include="oop.9\BoundCheckArray.cpp" />
-    <ClCompile Include="oop.9\AccountHandler07.cpp" />
-    <ClCompile Include="oop.9\BankingSystemMain07.cpp" />
-    <ClCompile Include="oop.9\String.cpp" />
+    <ClCompile Include="oop.9\Account07.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="oop.9\BoundCheckArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="oop.9\AccountHandler07.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="oop.9\BankingSystemMain07.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="oop.9\String.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Q1_2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -249,6 +265,7 @@
     <ClInclude Include="AccountArray.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="AccountException.h" />
     <ClInclude Include="AccountHandler07.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
@@ -266,6 +283,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="NormalAccount.h" />
+    <ClInclude Include="oop.10\Account07.h" />
+    <ClInclude Include="oop.10\AccountHandler07.h" />
+    <ClInclude Include="oop.10\BankingCommonDecl07.h" />
+    <ClInclude Include="oop.10\BoundCheckArray.h" />
+    <ClInclude Include="oop.10\HighCreditAccount07.h" />
+    <ClInclude Include="oop.10\NormalAccount07.h" />
+    <ClInclude Include="oop.10\String.h" />
     <ClInclude Include="oop.8\Account07.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
@@ -287,13 +311,27 @@
     <ClInclude Include="oop.8\String.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="oop.9\Account07.h" />
-    <ClInclude Include="oop.9\BoundCheckArray.h" />
-    <ClInclude Include="oop.9\AccountHandler07.h" />
-    <ClInclude Include="oop.9\BankingCommonDecl07.h" />
-    <ClInclude Include="oop.9\HighCreditAccount07.h" />
-    <ClInclude Include="oop.9\NormalAccount07.h" />
-    <ClInclude Include="oop.9\String.h" />
+    <ClInclude Include="oop.9\Account07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.9\BoundCheckArray.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.9\AccountHandler07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.9\BankingCommonDecl07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.9\HighCreditAccount07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.9\NormalAccount07.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="oop.9\String.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

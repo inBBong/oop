@@ -58,6 +58,12 @@
     <Filter Include="소스 파일\OOP\OOP.9\Header">
       <UniqueIdentifier>{16572611-7736-493d-a99c-97951731a9e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\OOP\OOP.10\CPP">
+      <UniqueIdentifier>{a1b31d24-74fa-43bf-9b41-1b3b991ed38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP\OOP.10\Header">
+      <UniqueIdentifier>{9da3f98c-b686-4937-833e-cd21f1f87d5e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunctionOverloading.cpp">
@@ -183,6 +189,24 @@
     <ClCompile Include="oop.9\String.cpp">
       <Filter>소스 파일\OOP\OOP.9\CPP</Filter>
     </ClCompile>
+    <ClCompile Include="oop.10\Account07.cpp">
+      <Filter>소스 파일\OOP\OOP.10\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="oop.10\AccountHandler07.cpp">
+      <Filter>소스 파일\OOP\OOP.10\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="oop.10\BankingSystemMain07.cpp">
+      <Filter>소스 파일\OOP\OOP.10\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="oop.10\BoundCheckArray.cpp">
+      <Filter>소스 파일\OOP\OOP.10\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="oop.10\String.cpp">
+      <Filter>소스 파일\OOP\OOP.10\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountException.cpp">
+      <Filter>소스 파일\OOP\OOP.10\CPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NameSp2.h">
@@ -262,6 +286,30 @@
     </ClInclude>
     <ClInclude Include="oop.9\String.h">
       <Filter>소스 파일\OOP\OOP.9\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="oop.10\Account07.h">
+      <Filter>소스 파일\OOP\OOP.10\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="oop.10\AccountHandler07.h">
+      <Filter>소스 파일\OOP\OOP.10\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="oop.10\BankingCommonDecl07.h">
+      <Filter>소스 파일\OOP\OOP.10\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="oop.10\BoundCheckArray.h">
+      <Filter>소스 파일\OOP\OOP.10\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="oop.10\HighCreditAccount07.h">
+      <Filter>소스 파일\OOP\OOP.10\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="oop.10\NormalAccount07.h">
+      <Filter>소스 파일\OOP\OOP.10\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="oop.10\String.h">
+      <Filter>소스 파일\OOP\OOP.10\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountException.h">
+      <Filter>소스 파일\OOP\OOP.10\Header</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

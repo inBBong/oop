@@ -1,17 +1,26 @@
 ﻿  Account07.cpp
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\Account07.cpp(3,34): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\Account07.cpp(3,15): warning C5043: 'Account::Deposit': 예외 사양이 이전 선언과 일치하지 않습니다.
+      C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\Account07.h(24,10):
+      'Account::Deposit' 선언을 참조하십시오.
+  
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\Account07.cpp(11,35): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\Account07.cpp(11,15): warning C5043: 'Account::WithDraw': 예외 사양이 이전 선언과 일치하지 않습니다.
+      C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\Account07.h(25,10):
+      'Account::WithDraw' 선언을 참조하십시오.
+  
   AccountHandler07.cpp
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.9\NormalAccount07.h(11,53): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'oop.9/AccountHandler07.cpp'을(를) 컴파일하는 중)
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\NormalAccount07.h(11,53): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'oop.10/AccountHandler07.cpp'을(를) 컴파일하는 중)
   
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.9\HighCreditAccount07.h(19,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'oop.9/AccountHandler07.cpp'을(를) 컴파일하는 중)
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\HighCreditAccount07.h(19,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'oop.10/AccountHandler07.cpp'을(를) 컴파일하는 중)
   
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.9\HighCreditAccount07.h(22,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'oop.9/AccountHandler07.cpp'을(를) 컴파일하는 중)
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\HighCreditAccount07.h(22,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'oop.10/AccountHandler07.cpp'을(를) 컴파일하는 중)
   
-C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.9\HighCreditAccount07.h(25,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'oop.9/AccountHandler07.cpp'을(를) 컴파일하는 중)
+C:\Users\ihhan\source\repos\윤성우의 열혈 C++\oop.10\HighCreditAccount07.h(25,30): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'oop.10/AccountHandler07.cpp'을(를) 컴파일하는 중)
   
-  BankingSystemMain07.cpp
   코드를 생성하고 있습니다...
   윤성우의 열혈 C++.vcxproj -> C:\Users\ihhan\source\repos\윤성우의 열혈 C++\x64\Debug\윤성우의 열혈 C++.exe

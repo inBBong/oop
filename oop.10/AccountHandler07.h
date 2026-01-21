@@ -1,13 +1,13 @@
 #pragma once
 #include"BankingCommonDecl07.h"
 #include"Account07.h"
-#include"AccountArray.h"
-
+#include"BoundCheckArray.h"
+#include"AccountException.h"
 class AccountHandler
 {
 private:
     //Account* accArr[100]; // Account 저장을 위한 배열
-    BoundCheckAccountPtrArray accArr;
+    BoundCheckAccountPtrArray<Account*> accArr;
     int accNum;          // 저장된 Account 수
 public:
     AccountHandler() :accNum(0),accArr(100) {};
