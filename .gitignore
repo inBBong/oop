@@ -1,0 +1,22 @@
+# Visual Studio IDE 캐시
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+ipch/
+
+# 빌드 산출물
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.log
+*.tlog
+*.lastbuildstate
+*.recipe
