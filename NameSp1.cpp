@@ -1,10 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 namespace BestComImpl
 {
 	void SimpleFunc(void)
 	{
-		std::cout<<"BestComÀÌ Á¤ÀÇÇÑ ÇÔ¼ö"<<std::endl;
+		std::cout<<"BestComì´ ì •ì˜í•œ í•¨ìˆ˜"<<std::endl;
 	}
 }
 
@@ -12,7 +12,7 @@ namespace ProgComImpl
 {
 	void SimpleFunc(void)
 	{
-		std::cout<<"ProgComÀÌ Á¤ÀÇÇÑ ÇÔ¼ö"<<std::endl;
+		std::cout<<"ProgComì´ ì •ì˜í•œ í•¨ìˆ˜"<<std::endl;
 	}
 }
 

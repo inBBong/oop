@@ -1,17 +1,17 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main(void)
 {
 	char name[100];
 	char lang[200];
 
-	std::cout<<"ÀÌ¸§Àº ¹«¾ùÀÔ´Ï±î? ";
+	std::cout<<"ì´ë¦„ì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? ";
 	std::cin>>name;
 
-	std::cout<<"ÁÁ¾ÆÇÏ´Â ÇÁ·Î±×·¡¹Ö ¾ð¾î´Â ¹«¾ùÀÎ°¡¿ä? ";
+	std::cout<<"ì¢‹ì•„í•˜ëŠ” í”„ë¡œê·¸ëž˜ë° ì–¸ì–´ëŠ” ë¬´ì—‡ì¸ê°€ìš”? ";
 	std::cin>>lang;
 
-	std::cout<<"³» ÀÌ¸§Àº "<<name<<"ÀÔ´Ï´Ù.\n";
-	std::cout<<"Á¦ÀÏ ÁÁ¾ÆÇÏ´Â ¾ð¾î´Â "<<lang<<"ÀÔ´Ï´Ù."<<std::endl;
+	std::cout<<"ë‚´ ì´ë¦„ì€ "<<name<<"ìž…ë‹ˆë‹¤.\n";
+	std::cout<<"ì œì¼ ì¢‹ì•„í•˜ëŠ” ì–¸ì–´ëŠ” "<<lang<<"ìž…ë‹ˆë‹¤."<<std::endl;
 	return 0;
 }

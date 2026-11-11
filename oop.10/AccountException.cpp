@@ -1,11 +1,11 @@
-#include "AccountException.h"
+ï»¿#include "AccountException.h"
 
 void DepositException::ShowException()
 {
-	cout << money << "´Â ¿Ã¹Ù¸¥ ÀÔ±Ý¾×ÀÌ ¾Æ´Õ´Ï´Ù.";
+	cout << money << "ëŠ” ì˜¬ë°”ë¥¸ ìž…ê¸ˆì•¡ì´ ì•„ë‹™ë‹ˆë‹¤.";
 }
 
 void WithdrawException::ShowException()
 {
-	cout << money << " ´Â Ãâ±ÝÇÒ ¼ö ¾ø½À´Ï´Ù." << endl << "ÀÜ¾×: " << balance;
+	cout << money << " ëŠ” ì¶œê¸ˆí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤." << endl << "ìž”ì•¡: " << balance;
 }

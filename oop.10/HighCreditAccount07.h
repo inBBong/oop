@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include"BankingCommonDecl07.h"
 #include"Account07.h"
 #include"NormalAccount07.h"
@@ -25,7 +25,7 @@ public:
             interest += 0.02 * money;
             break;
         default:
-            cout << "Àß¸øµÈ µî±ÞÀÔ´Ï´Ù." << endl;
+            cout << "ìž˜ëª»ëœ ë“±ê¸‰ìž…ë‹ˆë‹¤." << endl;
             break;
         }
         return interest;

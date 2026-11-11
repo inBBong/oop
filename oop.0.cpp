@@ -1,7 +1,7 @@
-/*
+ï»¿/*
  * Banking System Ver 0.1
- * ÀÛ¼ºÀÚ: À±¼º¿ì
- * ³»  ¿ë: OOP ´Ü°èº° ÇÁ·ÎÁ§Æ®ÀÇ ±âº» Æ² ±¸¼º
+ * ì‘ì„±ì: ìœ¤ì„±ìš°
+ * ë‚´  ìš©: OOP ë‹¨ê³„ë³„ í”„ë¡œì íŠ¸ì˜ ê¸°ë³¸ í‹€ êµ¬ì„±
  */
 
 #include <iostream>
@@ -10,23 +10,23 @@
 using namespace std;
 const int NAME_LEN=20;
 
-void ShowMenu(void);       // ¸Ş´ºÃâ·Â
-void MakeAccount(void);    // °èÁÂ°³¼³À» À§ÇÑ ÇÔ¼ö
-void DepositMoney(void);       // ÀÔ    ±İ
-void WithdrawMoney(void);      // Ãâ    ±İ
-void ShowAllAccInfo(void);     // ÀÜ¾×Á¶È¸
+void ShowMenu(void);       // ë©”ë‰´ì¶œë ¥
+void MakeAccount(void);    // ê³„ì¢Œê°œì„¤ì„ ìœ„í•œ í•¨ìˆ˜
+void DepositMoney(void);       // ì…    ê¸ˆ
+void WithdrawMoney(void);      // ì¶œ    ê¸ˆ
+void ShowAllAccInfo(void);     // ì”ì•¡ì¡°íšŒ
 
 enum {MAKE=1, DEPOSIT, WITHDRAW, INQUIRE, EXIT};
 
 typedef struct 
 {
-	int accID;      // °èÁÂ¹øÈ£
-	int balance;    // ÀÜ    ¾×
-	char cusName[NAME_LEN];   // °í°´ÀÌ¸§
+	int accID;      // ê³„ì¢Œë²ˆí˜¸
+	int balance;    // ì”    ì•¡
+	char cusName[NAME_LEN];   // ê³ ê°ì´ë¦„
 } Account;
 
-Account accArr[100];   // Account ÀúÀåÀ» À§ÇÑ ¹è¿­
-int accNum=0;        // ÀúÀåµÈ Account ¼ö
+Account accArr[100];   // Account ì €ì¥ì„ ìœ„í•œ ë°°ì—´
+int accNum=0;        // ì €ì¥ëœ Account ìˆ˜
 
 int main(void)
 {
@@ -35,7 +35,7 @@ int main(void)
 	while(1)
 	{
 		ShowMenu();
-		cout<<"¼±ÅÃ: "; 
+		cout<<"ì„ íƒ: "; 
 		cin>>choice;
 		cout<<endl;
 		
@@ -65,11 +65,11 @@ int main(void)
 void ShowMenu(void)
 {
 	cout<<"-----Menu------"<<endl;
-	cout<<"1. °èÁÂ°³¼³"<<endl;
-	cout<<"2. ÀÔ    ±İ"<<endl;
-	cout<<"3. Ãâ    ±İ"<<endl;
-	cout<<"4. °èÁÂÁ¤º¸ ÀüÃ¼ Ãâ·Â"<<endl;
-	cout<<"5. ÇÁ·Î±×·¥ Á¾·á"<<endl;
+	cout<<"1. ê³„ì¢Œê°œì„¤"<<endl;
+	cout<<"2. ì…    ê¸ˆ"<<endl;
+	cout<<"3. ì¶œ    ê¸ˆ"<<endl;
+	cout<<"4. ê³„ì¢Œì •ë³´ ì „ì²´ ì¶œë ¥"<<endl;
+	cout<<"5. í”„ë¡œê·¸ë¨ ì¢…ë£Œ"<<endl;
 }
 
 void MakeAccount(void) 
@@ -78,10 +78,10 @@ void MakeAccount(void)
 	char name[NAME_LEN];
 	int balance;
 	
-	cout<<"[°èÁÂ°³¼³]"<<endl;
-	cout<<"°èÁÂID: ";	cin>>id;
-	cout<<"ÀÌ  ¸§: ";	cin>>name;
-	cout<<"ÀÔ±İ¾×: ";	cin>>balance;
+	cout<<"[ê³„ì¢Œê°œì„¤]"<<endl;
+	cout<<"ê³„ì¢ŒID: ";	cin>>id;
+	cout<<"ì´  ë¦„: ";	cin>>name;
+	cout<<"ì…ê¸ˆì•¡: ";	cin>>balance;
 	cout<<endl;
 	
 	accArr[accNum].accID=id;
@@ -94,29 +94,29 @@ void DepositMoney(void)
 {
 	int money;
 	int id;
-	cout<<"[ÀÔ    ±İ]"<<endl;
-	cout<<"°èÁÂID: ";	cin>>id;
-	cout<<"ÀÔ±İ¾×: ";	cin>>money;
+	cout<<"[ì…    ê¸ˆ]"<<endl;
+	cout<<"ê³„ì¢ŒID: ";	cin>>id;
+	cout<<"ì…ê¸ˆì•¡: ";	cin>>money;
 	
 	for(int i=0; i<accNum; i++)
 	{
 		if(accArr[i].accID==id)
 		{
 			accArr[i].balance+=money;
-			cout<<"ÀÔ±İ¿Ï·á"<<endl<<endl;
+			cout<<"ì…ê¸ˆì™„ë£Œ"<<endl<<endl;
 			return;
 		}
 	}
-	cout<<"À¯È¿ÇÏÁö ¾ÊÀº ID ÀÔ´Ï´Ù."<<endl<<endl;
+	cout<<"ìœ íš¨í•˜ì§€ ì•Šì€ ID ì…ë‹ˆë‹¤."<<endl<<endl;
 }
 
 void WithdrawMoney(void)
 {
 	int money;
 	int id;
-	cout<<"[Ãâ    ±İ]"<<endl;
-	cout<<"°èÁÂID: ";	cin>>id;
-	cout<<"Ãâ±İ¾×: ";	cin>>money;
+	cout<<"[ì¶œ    ê¸ˆ]"<<endl;
+	cout<<"ê³„ì¢ŒID: ";	cin>>id;
+	cout<<"ì¶œê¸ˆì•¡: ";	cin>>money;
 	
 	for(int i=0; i<accNum; i++)
 	{
@@ -124,24 +124,24 @@ void WithdrawMoney(void)
 		{
 			if(accArr[i].balance<money)
 			{
-				cout<<"ÀÜ¾×ºÎÁ·"<<endl<<endl;
+				cout<<"ì”ì•¡ë¶€ì¡±"<<endl<<endl;
 				return;
 			}
 
 			accArr[i].balance-=money;
-			cout<<"Ãâ±İ¿Ï·á"<<endl<<endl;
+			cout<<"ì¶œê¸ˆì™„ë£Œ"<<endl<<endl;
 			return;
 		}
 	}
-	cout<<"À¯È¿ÇÏÁö ¾ÊÀº ID ÀÔ´Ï´Ù."<<endl<<endl;
+	cout<<"ìœ íš¨í•˜ì§€ ì•Šì€ ID ì…ë‹ˆë‹¤."<<endl<<endl;
 }
 
 void ShowAllAccInfo(void)	
 {
 	for(int i=0; i<accNum; i++)
 	{
-		cout<<"°èÁÂID: "<<accArr[i].accID<<endl;
-		cout<<"ÀÌ  ¸§: "<<accArr[i].cusName<<endl;
-		cout<<"ÀÜ  ¾×: "<<accArr[i].balance<<endl<<endl;
+		cout<<"ê³„ì¢ŒID: "<<accArr[i].accID<<endl;
+		cout<<"ì´  ë¦„: "<<accArr[i].cusName<<endl;
+		cout<<"ì”  ì•¡: "<<accArr[i].balance<<endl<<endl;
 	}
 }

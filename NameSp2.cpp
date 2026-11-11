@@ -1,11 +1,11 @@
-#include"NameSp2.h"
+ï»¿#include"NameSp2.h"
 
 void BestComImpl::SimpleFunc(void)
 {
-	std::cout<<"BestComÀÌ Á¤ÀÇÇÑ ÇÔ¼ö"<<std::endl;
+	std::cout<<"BestComì´ ì •ì˜í•œ í•¨ìˆ˜"<<std::endl;
 }	
 
 void ProgComImpl::SimpleFunc(void)
 {
-	std::cout<<"ProgComÀÌ Á¤ÀÇÇÑ ÇÔ¼ö"<<std::endl;
+	std::cout<<"ProgComì´ ì •ì˜í•œ í•¨ìˆ˜"<<std::endl;
 }

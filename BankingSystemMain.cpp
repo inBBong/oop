@@ -1,8 +1,8 @@
-/*
+ï»¿/*
  * Banking System Ver 0.6
- * ÀÛ¼ºÀÚ: À±¼º¿ì
- * ³»  ¿ë:
- *      ÆÄÀÏ ºĞÇÒ, Account ÇÔ¼ö Ãß°¡
+ * ì‘ì„±ì: ìœ¤ì„±ìš°
+ * ë‚´  ìš©:
+ *      íŒŒì¼ ë¶„í• , Account í•¨ìˆ˜ ì¶”ê°€
  *      
  *      
  */
@@ -20,7 +20,7 @@ int main(void)
     while (1)
     {
         handler.ShowMenu();
-        cout << "¼±ÅÃ: ";
+        cout << "ì„ íƒ: ";
         cin >> choice;
         cout << endl;
 

@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include"BankingCommonDecl07.h"
 #include"Account07.h"
 #include"AccountArray.h"
@@ -6,14 +6,14 @@
 class AccountHandler
 {
 private:
-    //Account* accArr[100]; // Account ÀúÀåÀ» À§ÇÑ ¹è¿­
+    //Account* accArr[100]; // Account ì €ì¥ì„ ìœ„í•œ ë°°ì—´
     BoundCheckAccountPtrArray accArr;
-    int accNum;          // ÀúÀåµÈ Account ¼ö
+    int accNum;          // ì €ì¥ëœ Account ìˆ˜
 public:
     AccountHandler() :accNum(0),accArr(100) {};
-    void ShowMenu(void);       // ¸Ş´ºÃâ·Â
-    void MakeAccount(void);    // °èÁÂ°³¼³À» À§ÇÑ ÇÔ¼ö
-    void DepositMoney(void);       // ÀÔ    ±İ
-    void WithdrawMoney(void);      // Ãâ    ±İ
-    void ShowAllAccInfo(void);     // ÀÜ¾×Á¶È¸
+    void ShowMenu(void);       // ë©”ë‰´ì¶œë ¥
+    void MakeAccount(void);    // ê³„ì¢Œê°œì„¤ì„ ìœ„í•œ í•¨ìˆ˜
+    void DepositMoney(void);       // ì…    ê¸ˆ
+    void WithdrawMoney(void);      // ì¶œ    ê¸ˆ
+    void ShowAllAccInfo(void);     // ì”ì•¡ì¡°íšŒ
 };

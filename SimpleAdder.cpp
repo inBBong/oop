@@ -1,16 +1,16 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main(void)
 {
 	int val1;
-	std::cout<<"Ã¹ ¹øÂ° ¼ýÀÚÀÔ·Â: ";
+	std::cout<<"ì²« ë²ˆì§¸ ìˆ«ìžìž…ë ¥: ";
 	std::cin>>val1;
 
 	int val2;	
-	std::cout<<"µÎ ¹øÂ° ¼ýÀÚÀÔ·Â: ";
+	std::cout<<"ë‘ ë²ˆì§¸ ìˆ«ìžìž…ë ¥: ";
 	std::cin>>val2;
 
 	int result=val1+val2;
-	std::cout<<"µ¡¼À°á°ú: "<<result<<std::endl;
+	std::cout<<"ë§ì…ˆê²°ê³¼: "<<result<<std::endl;
 	return 0;
 }

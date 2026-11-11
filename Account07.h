@@ -1,12 +1,12 @@
-#pragma once
+ï»¿#pragma once
 #include"BankingCommonDecl07.h"
 
 class Account
 {
 private:
-    int accID;      // °èÁÂ¹øÈ£
-    int balance;    // ÀÜ    ¾×
-    char* cusName;   // °í°´ÀÌ¸§
+    int accID;      // ê³„ì¢Œë²ˆí˜¸
+    int balance;    // ì”    ì•¡
+    char* cusName;   // ê³ ê°ì´ë¦„
 public:
     Account(int id, int _balance, const char* _cusName) :accID(id), balance(_balance)
     {
@@ -14,7 +14,7 @@ public:
         cusName = new char[nameLen];
         strcpy(cusName, _cusName);
     }
-    Account(const Account& acc1) :accID(acc1.accID), balance(acc1.balance) //º¹»ç»ı¼ºÀÚ
+    Account(const Account& acc1) :accID(acc1.accID), balance(acc1.balance) //ë³µì‚¬ìƒì„±ì
     {
         int nameLen = strlen(acc1.cusName) + 1;
         cusName = new char[nameLen];

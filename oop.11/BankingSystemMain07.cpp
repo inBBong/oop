@@ -1,9 +1,9 @@
-/*
+ï»¿/*
  * Banking System Ver 0.6
- * ÀÛ¼ºÀÚ: À±¼º¿ì
- * ³»  ¿ë:
- *      AccountHandler -> BoundCheckPointPtrArray ¹è¿­ Å¬·¡½º·Î ´ëÃ¼
- *      ´ëÀÔ¿¬»êÀÚ Á¤ÀÇ
+ * ì‘ì„±ì: ìœ¤ì„±ìš°
+ * ë‚´  ìš©:
+ *      AccountHandler -> BoundCheckPointPtrArray ë°°ì—´ í´ë˜ìŠ¤ë¡œ ëŒ€ì²´
+ *      ëŒ€ì…ì—°ì‚°ì ì •ì˜
  *      
  *      
  */
@@ -22,7 +22,7 @@ int main(void)
     while (1)
     {
         handler.ShowMenu();
-        cout << "¼±ÅÃ: ";
+        cout << "ì„ íƒ: ";
         cin >> choice;
         cout << endl;
 

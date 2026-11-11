@@ -1,18 +1,18 @@
-#pragma once
+ï»¿#pragma once
 #include"BankingCommonDecl07.h"
 #include"String.h"
 #include"AccountException.h"
 class Account
 {
 private:
-    int accID;      // °èÁÂ¹øÈ£
-    int balance;    // ÀÜ    ¾×
-    String cusName;   // °í°´ÀÌ¸§
+    int accID;      // ê³„ì¢Œë²ˆí˜¸
+    int balance;    // ì”    ì•¡
+    String cusName;   // ê³ ê°ì´ë¦„
 public:
     Account(int id, int _balance, String _cusName) :accID(id), balance(_balance),cusName(_cusName)
     {      
     }
-    Account(const Account& acc1) :accID(acc1.accID), balance(acc1.balance),cusName(acc1.cusName) //º¹»ç»ı¼ºÀÚ
+    Account(const Account& acc1) :accID(acc1.accID), balance(acc1.balance),cusName(acc1.cusName) //ë³µì‚¬ìƒì„±ì
     {      
     }
     Account& operator=(const Account&ac)

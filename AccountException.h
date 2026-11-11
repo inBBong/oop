@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include"BankingCommonDecl07.h"
 
 class AccountException
@@ -7,7 +7,7 @@ private:
 public:
 	virtual void ShowException() = 0;
 };
-class DepositException :public AccountException //À½¼ö ÀÔ±İ ÇßÀ»¶§ ¿¹¿Ü
+class DepositException :public AccountException //ìŒìˆ˜ ì…ê¸ˆ í–ˆì„ë•Œ ì˜ˆì™¸
 {
 private:
 	int money;
@@ -16,7 +16,7 @@ public:
 	void ShowException();
 };
 
-class WithdrawException :public AccountException //ÀÜ¾×ºÎÁ·¶¹À»¶§ ¿¹¿Ü
+class WithdrawException :public AccountException //ì”ì•¡ë¶€ì¡±ë–´ì„ë•Œ ì˜ˆì™¸
 {
 private:
 	int money;
